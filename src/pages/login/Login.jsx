@@ -2,7 +2,7 @@
 
 import { useRef, useState } from 'react';
 import styles from './login.module.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Login() {
   const nameRef = useRef(null);
