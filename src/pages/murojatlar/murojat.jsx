@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './murojat.module.css';
+import { Link } from 'react-router-dom';
 
 const API_URL = 'https://682815d56b7628c52912205f.mockapi.io/murojaatsys';
 
@@ -70,7 +71,7 @@ export default function murojat() {
     <div className={styles.container}>
       <h1 className={styles.title}>Murojat Panel</h1>
             <div className={styles.mrjt}>
-            <a  href='/admin'>Qaytish</a>
+            <Link to='/admin'>Qaytish</Link>
             </div>
 
       <form onSubmit={handleSubmit} className={styles.form}>

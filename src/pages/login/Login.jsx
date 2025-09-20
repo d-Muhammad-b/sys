@@ -73,12 +73,12 @@ function Login() {
 
         <button onClick={tekshir}>Yuborish</button>
         <br />
-        <a href="/" className={styles.panel}>Qaytish</a>
+        <Link to="/" className={styles.panel}>Qaytish</Link>
 
         {showPanel && (
-          <a href="/admin" className={styles.panel}>
+          <Link to="/admin" className={styles.panel}>
             Admin panel
-          </a>
+          </Link>
         )}
       </div>
     </div>

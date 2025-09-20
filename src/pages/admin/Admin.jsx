@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './admin.module.css';
+import { Link } from 'react-router-dom';
 
 const API_URL = 'https://682815d56b7628c52912205f.mockapi.io/sys';
 
@@ -74,8 +75,8 @@ export default function Admin() {
     <div className={styles.container}>
       <h1 className={styles.title}>Admin Panel</h1>
       <div className={styles.mrjt}>
-      <a  href='/murojat'>Murojatla</a>
-      <a  href='/'>Bosh sahifaga qaytiah</a>
+      <Link to='/murojat'>Murojatla</Link>
+      <Link to='/'>Bosh sahifaga qaytiah</Link>
       </div>
 
       <form onSubmit={handleSubmit} className={styles.form}>
