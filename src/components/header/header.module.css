@@ -1,0 +1,59 @@
+header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bg {
+    background-color: rgb(212, 247, 212);
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sys {
+    text-shadow: 0px 5px 10px rgb(13, 255, 0); 
+    font-weight: 600;
+    color: black;
+    font-size: 1.5rem;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width: 750px) {
+    header {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        max-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    img {
+        width: 60px;
+    }
+}

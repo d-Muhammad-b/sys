@@ -1,0 +1,86 @@
+.container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  margin: 0 auto 30px;
+}
+
+.form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button {
+  grid-column: span 2;
+  padding: 10px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #1976d2;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #adadad;
+  text-align: center;
+}
+
+.editBtn,
+.deleteBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.editBtn:hover {
+  color: green;
+}
+
+.deleteBtn:hover {
+  color: red;
+}
+.mrjt {
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.mrjt a{
+  color:black !important;
+  font-size: 25px;
+  text-shadow: 0 10px 10px black;
+}
+.amallar{
+  width: 130px;
+  height: 10px;
+}
+.odam{
+  width: 200px;
+}
