@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './footer.module.css'
 
 function Footer() {
@@ -14,7 +15,7 @@ function Footer() {
         <h3>murojat uchun shu sahifga oting</h3>
       </div>
       <div>
-        <a className={styles.aa} href="login">murojat sahifasi</a>
+        <Link className={styles.aa} to="login">murojat sahifasi</Link>
       </div>
 
     </div>
