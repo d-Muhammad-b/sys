@@ -15,7 +15,7 @@ function Footer() {
         <h3>murojat uchun shu sahifga oting</h3>
       </div>
       <div>
-        <Link className={styles.aa} to="login">murojat sahifasi</Link>
+        <Link className={styles.aa} to="/login">murojat sahifasi</Link>
       </div>
 
     </div>
