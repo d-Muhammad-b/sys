@@ -4,6 +4,8 @@ import Header from '../../components/header/Header'
 import styles from './home.module.css'
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Info from '../../components/info/info';
+
 
 function Home() {
    const [data,setData]=useState(null);
@@ -32,16 +34,19 @@ function Home() {
 
         <main className={styles.container}>
 
+               <Info></Info>
+               
           <section className={styles.newnews}>
 
-          <h1 className={styles.new}>Biz sizga eng zo'r server topberamiz</h1>
 
              <div className={styles.sections}>
               <Link to="/cs">cs 1.6</Link>  
               <Link to="/mine">Minecraft</Link>
               <Link to="/">WotBlits</Link>
              </div>
-             
+               
+               
+          <h1 className={styles.new}>Serverla</h1>
           {data&& data.map((d,i)=>{
             return  <div key={i} className={styles.yanglik}>
             <img src={d.img} alt="" />

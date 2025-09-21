@@ -5,7 +5,7 @@ header {
 }
 
 .bg {
-    background-color: rgb(212, 247, 212);
+    background-color: rgb(186, 238, 186);
     padding: 10px 0;
     border-bottom: 2px solid black;
 }
@@ -19,16 +19,12 @@ header {
 }
 
 .sys {
-    text-shadow: 0px 5px 10px rgb(13, 255, 0); 
     font-weight: 600;
     color: black;
     font-size: 1.5rem;
 }
-
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 1rem;
+select {
+    background-color: rgb(219, 254, 218);
 }
 
 img {
@@ -55,5 +51,8 @@ img {
     }
     img {
         width: 60px;
+    }
+    select{
+        width: 75px;
     }
 }

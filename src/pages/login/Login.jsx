@@ -44,7 +44,7 @@ function Login() {
 
   function tekshir() {
     const val = nameRef.current.value.trim();
-    if (val === "admn") {
+    if (val === "admin ponel 2.0") {
       setShowPanel(true);
       navigate("/admin");
     } else {

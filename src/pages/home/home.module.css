@@ -41,12 +41,13 @@
     flex-wrap: wrap;
     background-color: rgba(51, 68, 54, 0.61);
     padding: 10px 0;
-    width: 400px;
+    width: 380px;
     border-radius: 10px;
     margin: 0 auto;
 }
 a{
     color: white;  
+    text-decoration:none;
 }
 
 @media(max-width: 780px) {
@@ -63,7 +64,8 @@ a{
         font-size: 28px;
     }
     .sections{
-        width: 360px;
+        width: 320px;
+        gap: 35px;
     }
     select{
         padding: 3px 8px ;
@@ -91,6 +93,14 @@ a{
         font-size: 20px;
     }
     .sections{
-        width: 320px;
+        width: 260px;
+        gap: 25px;
+    }
+    select{
+        width: 75px;
+        height: 22px;
+        padding: 0px 1px ;
+        margin: 8px 0;
+        border-radius: 5px;
     }
 }
