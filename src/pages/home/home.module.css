@@ -52,13 +52,13 @@ a{
 
 @media(max-width: 780px) {
     .yanglik{
-        width: 480px;
+        width: 450px;
     }
     .t h1{
-        font-size: 24px;
+        font-size: 20px;
     }
     .t h2{
-        font-size: 20px;
+        font-size: 18px;
     }
     .new{
         font-size: 28px;
@@ -75,13 +75,13 @@ a{
 }
 @media(max-width: 480px) {
     .yanglik{
-        width: 380px;
+        width: 350px;
     }
     .t h1{
-        font-size: 18px;
+        font-size: 15px;
     }
     .t h2{
-        font-size: 15px;
+        font-size: 14px;
     }
     .t h3{
         font-size: 14px;

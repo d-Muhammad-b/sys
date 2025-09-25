@@ -43,7 +43,7 @@ function Mine() {
         <Header></Header>
         <main className={styles.container}>
           <section className={styles.newnews}>
-          <h1 className={styles.new}>Biz sizga eng zo'r server topberamiz</h1>
+                    <h1 className={styles.new}>Serverla</h1>
              <div className={styles.sections}>
               <Link to="/cs">cs 1.6</Link>  
               <Link to="/mine">Minecraft</Link>
