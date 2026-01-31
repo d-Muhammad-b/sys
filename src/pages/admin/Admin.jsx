@@ -104,7 +104,7 @@ export default function Admin() {
               <th>Nomi</th>
               <th>Info</th>
               <th>Tur</th>
-              <th>O‘yin</th>
+              <th>O'yin</th>
               <th>IP</th>
               <th>Amallar</th>
             </tr>

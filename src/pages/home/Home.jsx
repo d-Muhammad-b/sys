@@ -34,18 +34,20 @@ function Home() {
 
         <main className={styles.container}>
 
-               <Info></Info>
                
           <section className={styles.newnews}>
 
 
              <div className={styles.sections}>
-              <Link to="/cs">cs 1.6</Link>  
+              <Link to="/cs">Counter-Strike</Link>  
               <Link to="/mine">Minecraft</Link>
-              <Link to="/">WotBlits</Link>
+              <Link to="/">Ortga qaytish</Link>
              </div>
                
                
+               <Info></Info>
+
+{/*                
           <h1 className={styles.new}>Serverla</h1>
           {data&& data.map((d,i)=>{
             return  <div key={i} className={styles.yanglik}>
@@ -57,7 +59,7 @@ function Home() {
             <h4>{d.info}</h4>
             </div>
             </div>
-          })}
+          })} */}
 
           </section>
 

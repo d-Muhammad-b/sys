@@ -43,17 +43,17 @@ function Mine() {
         <Header></Header>
         <main className={styles.container}>
           <section className={styles.newnews}>
-                    <h1 className={styles.new}>Serverla</h1>
+                    <h1 className={styles.new}>Minecraft</h1>
              <div className={styles.sections}>
-              <Link to="/cs">cs 1.6</Link>  
+              <Link to="/cs">Counter-Strike</Link>  
               <Link to="/mine">Minecraft</Link>
-              <Link to="/">WotBlits</Link>
+              <Link to="/">ortga qaytish</Link>
              </div>
              <select onChange={changeType}>
-              <option value="All">All</option>
-              <option value="survival">survival</option>
+              <option value="All">Xammasi</option>
+              <option value="survival">omon qolish</option>
               <option value="pvp">pvp</option>
-              <option value="anarchy">anarchy</option>
+              <option value="anarchy">anarhiya</option>
               <option value="battle_royale">battle_royale</option>
              </select>
 
@@ -65,9 +65,9 @@ function Mine() {
             <img src={d.img} alt="" />
             <div className={styles.t}>
             <h1>{d.name}</h1>
-            <h2>{"turi : "+d.type}</h2>
-            <h3>{"IP : "+d.ip}</h3>
-            <h4>{d.info}</h4>
+            <h3><b>turi : </b>{d.type}</h3>
+            <h3>{d.info}</h3>
+            <h3><b>IP : </b>{d.ip}</h3>
             </div>
             </div>
             
